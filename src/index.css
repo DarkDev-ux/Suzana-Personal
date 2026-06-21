@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", "Inter", sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  
+  --color-purple-primary: #e08dff;
+  --color-purple-dim: #bc00fb;
+  --color-background-black: #0e0e0e;
+  --color-surface-card: #161616;
+  --color-surface-card-high: #1d1d1d;
+  --color-surface-card-highest: #262626;
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* Custom scrollbar to keep layout premium */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0e0e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bc00fb;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ffffff 40%, #e08dff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-purple-text {
+  background: linear-gradient(135deg, #e08dff 0%, #bc00fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.purple-glow {
+  box-shadow: 0 0 40px rgba(188, 0, 251, 0.15);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Suzana Personal",
+  "description": "Plataforma de assinaturas para Suzana Personal, com redirecionamento direto e seguro para os checkouts oficiais do Asaas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
